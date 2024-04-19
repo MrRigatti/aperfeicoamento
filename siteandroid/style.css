@@ -1,0 +1,182 @@
+@charset "UTF-8"
+:root {
+    
+    --cor1: #ebe5c5;
+    --cor2: #83e1ad;
+    --cor3: #3ddc84;
+    --cor4: #2fa866;
+    --cor5: #1a5c37;
+    --cor6: #063d1e;
+
+    --font-padrao: arial, Verdana, Helvetica, sans-serif;
+    --font-destaque: 'bebas neue', cursive;
+    --fonte-android: 'android', cursive;
+}
+
+
+a.externo{
+    background-color: #2fa866;
+}
+
+
+    a.externo::after{
+    content:'\00A0\1F517';
+    
+}
+
+
+header{
+    background-image: linear-gradient(to bottom, #3ddc84,#1a5c37);
+    text-align: center;
+}
+
+
+nav ul {
+    list-style-type: none;
+    padding-right:10px;
+    margin: 0;
+    /*nao voltar daqui*/
+}
+
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+    color: white;
+   
+ 
+}
+
+
+nav ul li a {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none !important;
+    color: #ffffff;
+    margin-left: 20px;
+    
+}
+
+
+nav {
+    background-color: #1a5c37;
+    height: 30px;
+    width: 100%;
+    
+    
+}
+
+
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: #ebe5c5;
+    margin:0px ;
+    padding:0px;
+    letter-spacing: 2px;
+    font-size: 1.2em;
+    line: height 1.1em; 
+    
+}
+
+
+main h1, main h2{
+    background-image: linear-gradient(to right, #3ddc84, transparent);
+    padding-left: 10px;
+}
+
+main p{
+    padding: 0px 10px 0px 10px;
+}
+
+
+img{
+    max-width: 900px;
+    width: 100% ;
+}
+
+
+img.bug{
+    width: 50%;
+    display: block;
+    margin: auto;
+}
+
+
+.conteudo{
+  
+    margin: auto;
+    max-width: 800px;
+    min-width: 300px;
+    width: 350;
+    text-align: justify;
+    background-color: white;
+    box-shadow: 5px 1px 10px black;
+    
+    
+}
+
+
+
+p{
+    text-indent: 10px;
+    padding: 10px;
+}
+
+
+iframe{
+    display: block;
+    margin: auto;
+    padding-bottom: 5px;
+}
+
+
+aside{
+    background-color: #2fa866;
+    padding: 8px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 90%;
+    margin: auto;
+    
+}
+
+
+aside h2{
+    background-color: #1a5c37;
+    margin:-8px;
+    height: 50px;
+    text-align: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding-top: 15px;
+}
+
+
+aside ul{
+    padding: 0px;
+    margin: 0px;
+    column-count: 2;
+    column-gap: 20px;
+
+}
+
+
+aside ul li{
+    display: block;
+    margin-bottom: 10px;
+}
+
+
+aside ul li::before{
+    content: "✔️";
+}
+
+
+footer{
+    background-color: #1a5c37;
+    text-align: center;
+    
+    padding: 5px;
+
+}
